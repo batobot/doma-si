@@ -129,7 +129,7 @@ export default function ContactPage() {
 
             {status === 'success' && (
               <div className="bg-pine-green text-white px-4 py-3 rounded-md">
-                Thank you! We'll get back to you soon.
+                Thank you! We&apos;ll get back to you soon.
               </div>
             )}
 
@@ -149,7 +149,7 @@ export default function ContactPage() {
             </Button>
 
             <p className="text-sm text-charcoal text-center">
-              No tracking cookies. We reply as soon as we can.
+              No tracking cookies. We&apos;ll reply as soon as we can.
             </p>
           </form>
         </div>

@@ -18,7 +18,7 @@ export default function PrivacyPage() {
 
             <h2 className="heading-md text-winter-blue mt-8">Introduction</h2>
             <p>
-              Tu Si Doma j.d.o.o. ("Doma Si", "we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or contact us.
+              Tu Si Doma j.d.o.o. (&quot;Doma Si&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or contact us.
             </p>
 
             <h2 className="heading-md text-winter-blue mt-8">Information We Collect</h2>

@@ -15,11 +15,11 @@ export default function AboutPage() {
           
           <div className="space-y-6 text-lg text-charcoal leading-relaxed">
             <p>
-              <strong>Doma Si</strong> brings a new dimension to Zagreb's award-winning Advent season—an intimate, premium Christmas experience in the heart of Upper Town.
+              <strong>Doma Si</strong> brings a new dimension to Zagreb&apos;s award-winning Advent season—an intimate, premium Christmas experience in the heart of Upper Town.
             </p>
 
             <p>
-              Set in the historic courtyard of the Zagreb City Museum on Opatička 20, our covered venue offers "Santa's Living Room"—a cozy, weather-protected space where tradition meets modern comfort.
+              Set in the historic courtyard of the Zagreb City Museum on Opatička 20, our covered venue offers &quot;Santa&apos;s Living Room&quot;—a cozy, weather-protected space where tradition meets modern comfort.
             </p>
 
             <h2 className="heading-md text-winter-blue mt-12 mb-4">Our Concept</h2>
@@ -34,7 +34,7 @@ export default function AboutPage() {
 
             <h2 className="heading-md text-winter-blue mt-12 mb-4">The Team</h2>
             <p>
-              Doma Si is operated by <strong>Tu Si Doma j.d.o.o.</strong>, founded in October 2024 with a mission to bring authentic, curated events to Zagreb's cultural landscape.
+              Doma Si is operated by <strong>Tu Si Doma j.d.o.o.</strong>, founded in October 2024 with a mission to bring authentic, curated events to Zagreb&apos;s cultural landscape.
             </p>
 
             <div className="bg-soft-gray rounded-lg p-8 mt-12">
