@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
@@ -22,25 +25,22 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // TODO: Integrate email service (Resend, SendGrid, etc.)
-    // Example with Resend:
-    // const resend = new Resend(process.env.RESEND_API_KEY);
-    // await resend.emails.send({
-    //   from: 'noreply@doma-si.com',
-    //   to: 'forms@unlokie.com',  // Your receiving email
-    //   subject: `Contact Form: ${subject}`,
-    //   html: `
-    //     <p><strong>Name:</strong> ${name}</p>
-    //     <p><strong>Email:</strong> ${email}</p>
-    //     <p><strong>Subject:</strong> ${subject}</p>
-    //     <p><strong>Message:</strong></p>
-    //     <p>${message}</p>
-    //   `,
-    //   replyTo: email,
-    // });
-
-    // For now, just log the submission (remove in production)
-    console.log('Contact form submission:', { name, email, subject, message });
+    // Send email via Resend
+    await resend.emails.send({
+      from: 'Doma Si Contact <onboarding@resend.dev>', // Use verified domain later
+      to: process.env.CONTACT_EMAIL || 'info@doma-si.com',
+      subject: `Contact Form: ${subject}`,
+      replyTo: email,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Subject:</strong> ${subject}</p>
+        <hr>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    });
 
     return NextResponse.json(
       { success: true, message: 'Message received' },

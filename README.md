@@ -130,12 +130,12 @@ The contact form currently logs submissions to console. To enable email:
    RESEND_API_KEY=re_xxxxxxxxxxxx
    ```
 
-3. **Uncomment email code** in `app/api/contact/route.ts`:
+3. **Update email recipient** in `app/api/contact/route.ts`:
    ```typescript
    const resend = new Resend(process.env.RESEND_API_KEY);
    await resend.emails.send({
      from: 'noreply@doma-si.com',
-     to: 'forms@unlokie.com',
+     to: process.env.CONTACT_EMAIL || 'info@doma-si.com',
      subject: `Contact Form: ${subject}`,
      html: `...`,
      replyTo: email,

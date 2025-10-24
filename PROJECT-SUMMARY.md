@@ -178,7 +178,7 @@ Then import content from JSON and build the page.
 
 **Company**: Tu Si Doma j.d.o.o.  
 **Location**: Zagreb, Croatia  
-**Email**: forms@unlokie.com (when configured)
+**Email**: info@doma-si.com
 
 ---
 
