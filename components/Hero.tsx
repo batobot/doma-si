@@ -27,10 +27,10 @@ export default function Hero({ locale, content }: HeroProps) {
             {content.subheadline}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href={`/${locale}#program`} variant="primary" className="bg-white text-deep-red hover:bg-off-white">
+            <Button href={`/${locale}#program`} variant="primary" className="bg-white text-deep-red hover:bg-off-white shadow-lg">
               {content.cta1}
             </Button>
-            <Button href={`/${locale}#venue`} variant="secondary" className="border-white text-white hover:bg-white hover:text-deep-red">
+            <Button href={`/${locale}#venue`} variant="secondary" className="border-2 border-white text-white bg-white/10 backdrop-blur-sm hover:bg-white hover:text-deep-red shadow-lg">
               {content.cta2}
             </Button>
           </div>
