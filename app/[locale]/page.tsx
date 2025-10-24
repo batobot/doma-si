@@ -9,9 +9,9 @@ import Gallery from '@/components/Gallery';
 import CTA from '@/components/CTA';
 
 interface HomePageProps {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 async function getContent(locale: Locale) {
@@ -24,7 +24,8 @@ async function getContent(locale: Locale) {
 }
 
 export default async function HomePage({ params }: HomePageProps) {
-  const locale = params.locale as Locale;
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale;
   const { pages, program } = await getContent(locale);
 
   // Gallery placeholder images

@@ -5,9 +5,9 @@ import { getLocale, isValidLocale, type Locale } from '@/lib/i18n';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 async function getPageContent(locale: Locale) {
@@ -16,9 +16,10 @@ async function getPageContent(locale: Locale) {
 }
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  const locale = getLocale(params.locale);
+  const { locale: localeParam } = await params;
+  const locale = getLocale(localeParam);
 
-  if (!isValidLocale(params.locale)) {
+  if (!isValidLocale(localeParam)) {
     notFound();
   }
 

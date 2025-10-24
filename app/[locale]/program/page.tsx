@@ -3,9 +3,9 @@ import Container from '@/components/Container';
 import type { Metadata } from 'next';
 
 interface ProgramPageProps {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 export const metadata: Metadata = {
@@ -19,8 +19,8 @@ async function getProgramContent(locale: Locale) {
 }
 
 export default async function ProgramPage({ params }: ProgramPageProps) {
-  const locale = params.locale as Locale;
-  const program = await getProgramContent(locale);
+  const { locale } = await params;
+  const program = await getProgramContent(locale as Locale);
 
   return (
     <div className="section-padding bg-white">
