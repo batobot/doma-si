@@ -1,0 +1,48 @@
+{
+  "title": "Weekly Program",
+  "subtitle": "A curated rhythm for every evening—from intimate live music to festive DJ nights",
+  "items": [
+    {
+      "day": "Monday",
+      "title": "Pub Quiz",
+      "description": "Test your knowledge with festive trivia and warm cocktails",
+      "icon": "🧠"
+    },
+    {
+      "day": "Tuesday",
+      "title": "Grinchijada",
+      "description": "Christmas humor and comedy night for those who love a good laugh",
+      "icon": "😄"
+    },
+    {
+      "day": "Wednesday",
+      "title": "Live Bands",
+      "description": "Acoustic performances—from Frank Sinatra classics to Croatian favorites",
+      "icon": "🎸"
+    },
+    {
+      "day": "Thursday",
+      "title": "Live Bands",
+      "description": "Intimate live music spanning jazz, swing, and holiday favorites",
+      "icon": "🎺"
+    },
+    {
+      "day": "Friday",
+      "title": "DJ Program",
+      "description": "Festive beats and modern mixes to kick off the weekend",
+      "icon": "🎧"
+    },
+    {
+      "day": "Saturday",
+      "title": "DJ Program",
+      "description": "Dance the night away with curated holiday playlists",
+      "icon": "🎶"
+    },
+    {
+      "day": "Sunday",
+      "title": "Market Day",
+      "description": "Christmas shopping, browsing local crafts, and leisurely brunches",
+      "icon": "🛍️"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "headline": "Najtopliji Advent u Zagrebu",
+    "subheadline": "Intimno božićno dvorište u Gornjem gradu—ugodno, natkriveno i svake večeri posebno s glazbom, gastronomijom i hrvatskim tradicijama.",
+    "cta1": "Pogledaj Program",
+    "cta2": "Pronađi Nas"
+  },
+  "difference": {
+    "title": "Što Nas Čini Posebnima",
+    "items": [
+      {
+        "icon": "☂️",
+        "title": "Natkriveno i Ugodno",
+        "description": "Zaštićeno dvorište osigurava udobnost bez obzira na vrijeme"
+      },
+      {
+        "icon": "🏰",
+        "title": "Šarm Gornjeg Grada",
+        "description": "Povijesni ambijent Muzeja Grada Zagreba u Gornjem gradu"
+      },
+      {
+        "icon": "🎵",
+        "title": "Kurirani Program",
+        "description": "Tjedni ritam od pub kvizova do bendova uživo i DJ večeri"
+      },
+      {
+        "icon": "🍷",
+        "title": "Premium Ponuda",
+        "description": "Pet gastronomskih kutaka s koktelima, vinom i gurmanskim zalogajima"
+      }
+    ]
+  },
+  "gastronomy": {
+    "title": "Pet Gastronomskih Kutaka",
+    "subtitle": "Premium hrana i piće u Djedovoj dnevnoj sobi",
+    "ctaText": "Pogledaj Cijeli Meni",
+    "items": [
+      {
+        "name": "Šećerni Pol",
+        "description": "Slatki užici—churros, palačinke, fritule i topli deserti",
+        "icon": "🍩"
+      },
+      {
+        "name": "The Spot",
+        "description": "Premium burgeri za božićne grickalice",
+        "icon": "🍔"
+      },
+      {
+        "name": "MEZA to go",
+        "description": "Kurirano vino i sir—daske s mesom i hrvatska vina",
+        "icon": "🧀"
+      },
+      {
+        "name": "Pijani Djedica",
+        "description": "Božićni kokteli s blagdanskim twist-om",
+        "icon": "🍹"
+      },
+      {
+        "name": "Snježna kap",
+        "description": "Topla pića, klasici i sezonski napitci",
+        "icon": "☕"
+      }
+    ]
+  },
+  "venue": {
+    "title": "Pronađite Nas u Gornjem Gradu",
+    "location": "Dvorište Muzeja Grada Zagreba",
+    "address": "Opatička 20, 10000 Zagreb, Hrvatska",
+    "description": "Smješteni u srcu Gornjeg grada, naše natkriveno dvorište nudi intimno, vremenom zaštićeno božićno iskustvo. Lako dostupno tramvajem ili šetnjom kroz povijesni Zagreb."
+  },
+  "heritage": {
+    "title": "Hrvatske Božićne Tradicije",
+    "content": [
+      "Inspirirani hrvatskim tradicijama—od licitarskih srca do ručno rađenih drvenih igračaka—Doma Si slavi toplinu, obrtništvo i zajedništvo.",
+      "Zagreb Advent osvojio je brojne nagrade kao jedno od najboljih božićnih sajmova u Europi. Mi čuvamo tu baštinu stvarajući intimno, premium iskustvo utemeljeno na autentičnoj hrvatskoj gostoljubivosti."
+    ],
+    "traditions": [
+      { "icon": "❤️", "name": "Licitarska Srca" },
+      { "icon": "🎄", "name": "Drvene Igračke" },
+      { "icon": "🥟", "name": "Fritule" },
+      { "icon": "🏠", "name": "Dom i Ognjište" }
+    ]
+  },
+  "gallery": {
+    "title": "Atmosfera i Trenuci"
+  },
+  "cta": {
+    "title": "Planirajte Posjet",
+    "description": "Pridružite nam se za nezaboravno adventsko iskustvo. Bilo da slavite s prijateljima ili organizirate privatni event, ovdje smo da vam učinimo blagdane posebnim.",
+    "primaryCTA": "Pronađi Nas",
+    "secondaryCTA": "Grupni Eventi"
+  },
+  "nav": {
+    "home": "Početna",
+    "program": "Program",
+    "menu": "Meni",
+    "venue": "Lokacija",
+    "heritage": "Baština",
+    "gallery": "Galerija",
+    "contact": "Kontakt",
+    "cta": "Planiraj Posjet"
+  },
+  "footer": {
+    "company": "Tu Si Doma j.d.o.o.",
+    "rights": "© 2024 Doma Si. Sva prava pridržana.",
+    "social": "Prati Nas",
+    "legal": {
+      "privacy": "Pravila Privatnosti",
+      "terms": "Uvjeti Korištenja"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Tjedni Program",
+  "subtitle": "Kurirani ritam za svaku večer—od intimne live glazbe do blagdanskih DJ večeri",
+  "items": [
+    {
+      "day": "Ponedjeljak",
+      "title": "Pub Kviz",
+      "description": "Testirajte znanje uz blagdanske kvizove i tople koktele",
+      "icon": "🧠"
+    },
+    {
+      "day": "Utorak",
+      "title": "Grinchijada",
+      "description": "Božićni humor i stand-up večer za ljubitelje smijeha",
+      "icon": "😄"
+    },
+    {
+      "day": "Srijeda",
+      "title": "Bendovi Uživo",
+      "description": "Akustične izvedbe—od Sinatra klasika do hrvatskih favorita",
+      "icon": "🎸"
+    },
+    {
+      "day": "Četvrtak",
+      "title": "Bendovi Uživo",
+      "description": "Intimna live glazba od jazza, swinga do blagdanskih hitova",
+      "icon": "🎺"
+    },
+    {
+      "day": "Petak",
+      "title": "DJ Program",
+      "description": "Blagdanski ritmovi i moderni mixevi za početak vikenda",
+      "icon": "🎧"
+    },
+    {
+      "day": "Subota",
+      "title": "DJ Program",
+      "description": "Plešite cijelu noć uz kurirane božićne playliste",
+      "icon": "🎶"
+    },
+    {
+      "day": "Nedjelja",
+      "title": "Božićna Tržnica",
+      "description": "Kupovina, lokalni obrti i opušteni brunchevi",
+      "icon": "🛍️"
+    }
+  ]
+}

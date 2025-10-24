@@ -1,0 +1,155 @@
+{
+  "title": "Naš Meni",
+  "subtitle": "Premium gastronomija na pet kuriranih lokacija",
+  "categories": [
+    {
+      "name": "Šećerni Pol",
+      "description": "Slatki užici i topli deserti",
+      "icon": "🍩",
+      "items": [
+        {
+          "name": "Churros",
+          "description": "Hrskavi churros s čokoladnim umakom",
+          "price": "€4.50",
+          "tags": ["slatko", "popularno"]
+        },
+        {
+          "name": "Palačinke",
+          "description": "Pahuljaste palačinke s Nutellom i svježim bobicama",
+          "price": "€6.00",
+          "tags": ["slatko"]
+        },
+        {
+          "name": "Fritule",
+          "description": "Tradicionalne hrvatske mini krafne s šećerom",
+          "price": "€5.00",
+          "tags": ["slatko", "tradicionalno"]
+        },
+        {
+          "name": "Topli Vafli",
+          "description": "Belgijski vafli sa šlagom i karamelom",
+          "price": "€5.50",
+          "tags": ["slatko"]
+        }
+      ]
+    },
+    {
+      "name": "The Spot",
+      "description": "Premium burgeri",
+      "icon": "🍔",
+      "items": [
+        {
+          "name": "Klasični Govedina Burger",
+          "description": "Angus govedina, cheddar, salata, rajčica, umak kuće",
+          "price": "€9.50",
+          "tags": ["popularno"]
+        },
+        {
+          "name": "Božićni Burger",
+          "description": "Pureći pljeskavica s brusnicom i brie sirom",
+          "price": "€10.50",
+          "tags": ["sezonsko", "premium"]
+        },
+        {
+          "name": "Veggie Burger",
+          "description": "Grilano povrće s avokadom i tahinijevim umakom",
+          "price": "€8.50",
+          "tags": ["vegetarijansko"]
+        }
+      ]
+    },
+    {
+      "name": "MEZA to go",
+      "description": "Izbor vina i sireva",
+      "icon": "🧀",
+      "items": [
+        {
+          "name": "Daska Suhomesnatih Proizvoda",
+          "description": "Pršut, salama, lokalni sirevi, masline, krekeri",
+          "price": "€15.00",
+          "tags": ["premium", "popularno"]
+        },
+        {
+          "name": "Hrvatski Vinoleti",
+          "description": "Tri čaše kuriranih hrvatskih vina",
+          "price": "€12.00",
+          "tags": ["vino", "premium"]
+        },
+        {
+          "name": "Plata Sireva",
+          "description": "Izbor hrvatskih i europskih sireva s medom",
+          "price": "€13.00",
+          "tags": ["premium"]
+        }
+      ]
+    },
+    {
+      "name": "Pijani Djedica",
+      "description": "Božićni kokteli",
+      "icon": "🍹",
+      "items": [
+        {
+          "name": "Kuhano Vino",
+          "description": "Tradicionalno hrvatsko kuhano vino sa začinima",
+          "price": "€5.00",
+          "tags": ["toplo", "tradicionalno", "popularno"]
+        },
+        {
+          "name": "Božićni Mojito",
+          "description": "Rum, brusnica, menta i blagdanski začini",
+          "price": "€7.50",
+          "tags": ["koktel"]
+        },
+        {
+          "name": "Medenjak Martini",
+          "description": "Votka sa sirupom od medenjaka i cimet rubom",
+          "price": "€8.00",
+          "tags": ["koktel", "premium"]
+        },
+        {
+          "name": "Hot Toddy",
+          "description": "Whiskey, med, limun i topla voda",
+          "price": "€6.50",
+          "tags": ["toplo", "koktel"]
+        }
+      ]
+    },
+    {
+      "name": "Snježna kap",
+      "description": "Topla pića i klasici",
+      "icon": "☕",
+      "items": [
+        {
+          "name": "Topla Čokolada",
+          "description": "Bogata tamna čokolada sa šlagom",
+          "price": "€4.00",
+          "tags": ["toplo", "popularno"]
+        },
+        {
+          "name": "Espresso",
+          "description": "Espresso u talijanskom stilu",
+          "price": "€2.50",
+          "tags": []
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Espresso s parom mlijekom i pjenom",
+          "price": "€3.50",
+          "tags": []
+        },
+        {
+          "name": "Božićni Čaj",
+          "description": "Sezonska mješavina cimeta, naranče i klinčića",
+          "price": "€3.00",
+          "tags": ["toplo", "sezonsko"]
+        },
+        {
+          "name": "Hrvatsko Pivo",
+          "description": "Lokalno točeno pivo",
+          "price": "€4.50",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

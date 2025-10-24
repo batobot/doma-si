@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "headline": "The Warmest Advent in Zagreb",
+    "subheadline": "An intimate Christmas courtyard in Upper Town—cozy, covered, and curated nightly with music, gastronomy, and Croatian tradition.",
+    "cta1": "See Program",
+    "cta2": "Find Us"
+  },
+  "difference": {
+    "title": "What Makes Us Different",
+    "items": [
+      {
+        "icon": "☂️",
+        "title": "Covered & Cozy",
+        "description": "Weather-protected courtyard ensures comfort rain or shine"
+      },
+      {
+        "icon": "🏰",
+        "title": "Upper Town Charm",
+        "description": "Historic Zagreb City Museum setting in Gornji Grad"
+      },
+      {
+        "icon": "🎵",
+        "title": "Curated Program",
+        "description": "Weekly rhythm from pub quizzes to live bands and DJ nights"
+      },
+      {
+        "icon": "🍷",
+        "title": "Premium F&B",
+        "description": "Five gastronomy corners with cocktails, wine, and gourmet bites"
+      }
+    ]
+  },
+  "gastronomy": {
+    "title": "Five Gastronomy Corners",
+    "subtitle": "Premium food and drinks in Santa's living room",
+    "ctaText": "View Full Menu",
+    "items": [
+      {
+        "name": "Šećerni Pol",
+        "description": "Sweet treats—churros, pancakes, fritule, and warm desserts",
+        "icon": "🍩"
+      },
+      {
+        "name": "The Spot",
+        "description": "Premium burgers crafted for Christmas cravings",
+        "icon": "🍔"
+      },
+      {
+        "name": "MEZA to go",
+        "description": "Curated wine and cheese—charcuterie boards and Croatian wines",
+        "icon": "🧀"
+      },
+      {
+        "name": "Pijani Djedica",
+        "description": "Christmas cocktails with a festive twist",
+        "icon": "🍹"
+      },
+      {
+        "name": "Snježna kap",
+        "description": "Hot drinks, classics, and seasonal beverages",
+        "icon": "☕"
+      }
+    ]
+  },
+  "venue": {
+    "title": "Find Us in Upper Town",
+    "location": "Zagreb City Museum Courtyard",
+    "address": "Opatička 20, 10000 Zagreb, Croatia",
+    "description": "Located in the heart of Gornji Grad, our covered courtyard offers an intimate, weather-protected Christmas experience. Easily accessible by tram or a scenic walk through Zagreb's historic Upper Town."
+  },
+  "heritage": {
+    "title": "Croatian Christmas Traditions",
+    "content": [
+      "Inspired by Croatian traditions—from licitar hearts to handmade wooden toys—Doma Si celebrates warmth, craftsmanship, and togetherness.",
+      "Zagreb Advent has won multiple awards as one of Europe's best Christmas markets. We honor that legacy while creating an intimate, premium experience rooted in authentic Croatian hospitality."
+    ],
+    "traditions": [
+      { "icon": "❤️", "name": "Licitar Hearts" },
+      { "icon": "🎄", "name": "Wooden Toys" },
+      { "icon": "🥟", "name": "Fritule" },
+      { "icon": "🏠", "name": "Home & Hearth" }
+    ]
+  },
+  "gallery": {
+    "title": "Atmosphere & Moments"
+  },
+  "cta": {
+    "title": "Plan Your Visit",
+    "description": "Join us for an unforgettable Advent experience. Whether you're celebrating with friends or organizing a private event, we're here to make your holiday season special.",
+    "primaryCTA": "Find Us",
+    "secondaryCTA": "Group Events"
+  },
+  "nav": {
+    "home": "Home",
+    "program": "Program",
+    "menu": "Menu",
+    "venue": "Venue",
+    "heritage": "Heritage",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "cta": "Plan Your Visit"
+  },
+  "footer": {
+    "company": "Tu Si Doma j.d.o.o.",
+    "rights": "© 2024 Doma Si. All rights reserved.",
+    "social": "Follow Us",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}

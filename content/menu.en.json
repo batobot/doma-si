@@ -1,0 +1,155 @@
+{
+  "title": "Our Menu",
+  "subtitle": "Premium gastronomy across five curated corners",
+  "categories": [
+    {
+      "name": "Šećerni Pol",
+      "description": "Sweet treats and warm desserts",
+      "icon": "🍩",
+      "items": [
+        {
+          "name": "Churros",
+          "description": "Crispy churros with chocolate dipping sauce",
+          "price": "€4.50",
+          "tags": ["sweet", "popular"]
+        },
+        {
+          "name": "Pancakes",
+          "description": "Fluffy pancakes with Nutella and fresh berries",
+          "price": "€6.00",
+          "tags": ["sweet"]
+        },
+        {
+          "name": "Fritule",
+          "description": "Traditional Croatian mini-donuts dusted with sugar",
+          "price": "€5.00",
+          "tags": ["sweet", "traditional"]
+        },
+        {
+          "name": "Hot Waffle",
+          "description": "Belgian waffle with whipped cream and caramel",
+          "price": "€5.50",
+          "tags": ["sweet"]
+        }
+      ]
+    },
+    {
+      "name": "The Spot",
+      "description": "Premium burgers",
+      "icon": "🍔",
+      "items": [
+        {
+          "name": "Classic Beef Burger",
+          "description": "Angus beef patty, cheddar, lettuce, tomato, house sauce",
+          "price": "€9.50",
+          "tags": ["popular"]
+        },
+        {
+          "name": "Christmas Burger",
+          "description": "Turkey patty with cranberry sauce and brie cheese",
+          "price": "€10.50",
+          "tags": ["seasonal", "premium"]
+        },
+        {
+          "name": "Veggie Burger",
+          "description": "Grilled vegetable patty with avocado and tahini",
+          "price": "€8.50",
+          "tags": ["vegetarian"]
+        }
+      ]
+    },
+    {
+      "name": "MEZA to go",
+      "description": "Wine and cheese selection",
+      "icon": "🧀",
+      "items": [
+        {
+          "name": "Charcuterie Board",
+          "description": "Prosciutto, salami, local cheeses, olives, crackers",
+          "price": "€15.00",
+          "tags": ["premium", "popular"]
+        },
+        {
+          "name": "Croatian Wine Flight",
+          "description": "Three glasses of curated Croatian wines",
+          "price": "€12.00",
+          "tags": ["wine", "premium"]
+        },
+        {
+          "name": "Cheese Platter",
+          "description": "Selection of Croatian and European cheeses with honey",
+          "price": "€13.00",
+          "tags": ["premium"]
+        }
+      ]
+    },
+    {
+      "name": "Pijani Djedica",
+      "description": "Christmas cocktails",
+      "icon": "🍹",
+      "items": [
+        {
+          "name": "Mulled Wine",
+          "description": "Traditional Croatian kuhano vino with spices",
+          "price": "€5.00",
+          "tags": ["hot", "traditional", "popular"]
+        },
+        {
+          "name": "Christmas Mojito",
+          "description": "Rum, cranberry, mint, and festive spices",
+          "price": "€7.50",
+          "tags": ["cocktail"]
+        },
+        {
+          "name": "Gingerbread Martini",
+          "description": "Vodka with gingerbread syrup and cinnamon rim",
+          "price": "€8.00",
+          "tags": ["cocktail", "premium"]
+        },
+        {
+          "name": "Hot Toddy",
+          "description": "Whiskey, honey, lemon, and hot water",
+          "price": "€6.50",
+          "tags": ["hot", "cocktail"]
+        }
+      ]
+    },
+    {
+      "name": "Snježna kap",
+      "description": "Hot drinks and classics",
+      "icon": "☕",
+      "items": [
+        {
+          "name": "Hot Chocolate",
+          "description": "Rich dark chocolate with whipped cream",
+          "price": "€4.00",
+          "tags": ["hot", "popular"]
+        },
+        {
+          "name": "Espresso",
+          "description": "Italian-style espresso",
+          "price": "€2.50",
+          "tags": []
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Espresso with steamed milk and foam",
+          "price": "€3.50",
+          "tags": []
+        },
+        {
+          "name": "Christmas Tea",
+          "description": "Seasonal blend of cinnamon, orange, and clove",
+          "price": "€3.00",
+          "tags": ["hot", "seasonal"]
+        },
+        {
+          "name": "Croatian Beer",
+          "description": "Local draft beer",
+          "price": "€4.50",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}
